@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px) {
+  #features {
+    /* padding: 20px; */
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+  }
+  .nav li a {
+    padding-bottom : 0px;
+    padding-left : 5vw;
+  }
+  
+  
+  li a h2{
+    font-size: 15pt;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 100%;
+  }
+
+  #portfolio {
+    width: 100%;
+  }
+}
