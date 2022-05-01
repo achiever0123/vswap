@@ -4,7 +4,7 @@ export const Header = (props) => {
       <div className='intro'>
         <div className='overlay'>
           <div className=''>
-            <div className='row'>
+            <div className='row intro-main'>
               <div className='col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 intro-text'>
                 {/* <div className="intro-logo">
 

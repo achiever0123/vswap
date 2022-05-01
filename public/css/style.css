@@ -207,6 +207,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100vh;
   padding: 0;
   background: url(../img/vswap/Banner.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -216,7 +217,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
 }
 h1{
   color: #000000;
@@ -252,7 +253,18 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  
 }
+
+@media screen and (min-width: 768px) {
+  #features {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* bottom: 0; */
+  }
+}
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -356,7 +368,8 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 50px 0;
+  background-color:#eeeeee;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -612,12 +625,20 @@ label {
 
 /* me */
 
+.intro-main{
+  padding-top: 5vh;
+}
+
 .intro-logo{
   width: 100%;
+  
   border-radius:50%;
+  
   cursor: pointer;
   
 }
+
+
 
 .about-logo1{
   width : 100%;
@@ -669,4 +690,21 @@ label {
 
 li a h2{
   margin-bottom:0px;
+}
+
+#timeline {
+  background-color: #eeeeee;
+}
+
+#timeline .logo{
+  padding-top: 50px
+}
+
+#aboutus {
+  padding-top:100px;
+  padding-bottom:70px;
+}
+
+#aboutus h2{
+  padding-bottom: 50px;
 }

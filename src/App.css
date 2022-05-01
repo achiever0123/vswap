@@ -7,6 +7,12 @@
     left: 0;
     top: 0;
   }
+
+  .intro-main{
+    padding-top: 20vh;
+  }
+  
+
   .nav li a {
     padding-bottom : 10px;
     padding-left : 5vw;
