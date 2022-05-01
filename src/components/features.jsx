@@ -16,7 +16,7 @@ export const Features = (props) => {
             <li><a href="Economics.pdf"><h2>WHITE PAPER</h2></a></li>
               <li><a href="#aboutus"><h2>ABOUT US</h2></a></li>
               <li><a href="#timeline"><h2>ROADMAP</h2></a></li>
-              <li><a href="#"><h2>SEARCH</h2></a></li>
+              <li><a href="/"><h2>SEARCH</h2></a></li>
             </ul>
             <div className="clear-fix"></div>
           </div>
