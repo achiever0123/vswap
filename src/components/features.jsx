@@ -13,7 +13,7 @@ export const Features = (props) => {
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="#"><h2>OURSELVES</h2></a></li>
+              <li><a href="#"><h2>ABOUT US</h2></a></li>
               <li><a href="#"><h2>ROADMAP</h2></a></li>
               <li><a href="#"><h2>SEARCH</h2></a></li>
             </ul>

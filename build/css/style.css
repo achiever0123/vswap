@@ -661,7 +661,7 @@ label {
 .navbar-inverse{
   border:none;
 }
-@media screen and (min-width: 991px) {
+
 .nav li a {
   padding-bottom : 5px;
   padding-left : 7vw;
@@ -669,5 +669,4 @@ label {
 
 li a h2{
   margin-bottom:0px;
-}
 }
